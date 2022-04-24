@@ -48,7 +48,8 @@ This guide is a down-and-dirty guide for how to host static web content through 
    2. Under viewer click "Redirect HTTP to HTTPS"
    3. Under Settings, click add item under "Alternate Domain name (CNAME) - Optional", write example.com
    4. Under Settings, click the drop-down under "Custom SSL - Optional", choose the Certificate you made earlier
-   5. Click Create distribution
+   5. Under Settings, write index.html under "Default root object *- optional*"
+   6. Click Create distribution
 
    *NOTE: This will take ~5 minutes to deploy, wait for this to happen*
 
